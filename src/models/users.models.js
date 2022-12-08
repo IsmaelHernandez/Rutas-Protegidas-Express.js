@@ -40,7 +40,7 @@ const Users = db.define('users', {
         defaultValue: 'normal'
     },
     country: {
-        type: DataTypes.STRING(3)
+        type: DataTypes.STRING
     }
 })
 
